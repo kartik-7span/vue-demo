@@ -1,0 +1,16 @@
+.growth{
+    @apply bg-dark;
+     &-content{
+        h4{
+            @apply text-4xl 2xl:text-5xl text-white font-title mb-2 font-normal mb-4 ;
+        }
+        p{
+            @apply text-white w-full max-w-xl;
+        }
+     }
+     &-img{
+        img{
+            @apply w-full max-w-lg m-auto  pb-10 2xl:pb-0
+        }
+     }
+}

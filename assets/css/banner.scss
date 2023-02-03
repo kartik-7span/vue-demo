@@ -1,0 +1,12 @@
+.banner{
+    @apply bg-cover bg-no-repeat bg-center bg-GradientColor;
+    &__content{
+        @apply relative ;
+        img{
+            @apply absolute left-2/4 2xl:left-2/4 xl:left-2/4 md:left-1/4 top-2/4 w-64 h-auto -translate-y-1/2 -translate-x-1/2 lg:left-1/4 xl:left-2/4 sm:left-2/4 
+        }
+    }
+    &__title{
+        @apply text-5xl 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl font-semibold text-center ml-auto font-title relative z-10 text-white py-48 md:max-w-xs md:text-left sm:max-w-full sm:text-center;
+    }
+}

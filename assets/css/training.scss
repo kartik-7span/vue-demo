@@ -1,0 +1,21 @@
+.training{
+    @apply bg-dark bg-no-repeat bg-contain bg-right;
+     &-content{
+        @apply px-5 2xl:px-10;
+        h2{
+            @apply text-4xl 2xl:text-5xl text-white font-title mb-2 font-normal mb-12 lg:text-2xl
+        }; 
+     }
+     &-image{
+        &::before{
+            content: '';
+            background: rgb(34,34,34);
+            background: linear-gradient(90deg, rgba(34,34,34,1) 19%, rgba(34,34,34,0) 100%);
+            z-index: 10;
+            @apply  absolute inset-y-0 left-0 w-full max-w-xs 
+        }
+        img{
+            @apply absolute top-0 inset-0 h-full object-cover mt-16
+        }
+     }
+}

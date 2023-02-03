@@ -1,0 +1,25 @@
+.header{
+    @apply flex flex-wrap justify-between items-center ;
+
+    &-navigation{
+       @apply sm:flex flex-wrap items-center gap-5 hidden;
+
+       li{
+        @apply text-white relative;
+        a{
+            @apply font-normal text-lg leading-8 transition-all hover:text-orange
+        }
+        .sub-menu{
+            @apply absolute top-16 left-0 bg-orange px-6 py-3 rounded-md;
+            a{
+                @apply block hover:text-white
+            }
+        }
+       }
+    }
+}
+.button{
+    .btn{
+        @apply bg-orange px-4 py-2 inline-block rounded-md text-white font-normal text-lg border-2 mr-4 border-orange transition-all hover:bg-transparent;
+    }
+}
