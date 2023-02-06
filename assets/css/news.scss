@@ -1,0 +1,26 @@
+.news{
+    @apply bg-dark py-20 pl-10;
+    &__title{
+        @apply text-4xl 2xl:text-5xl text-white font-title mb-2 font-normal mb-10;
+    }
+    &-slider{
+        span{
+           @apply text-base text-white opacity-50 block mt-2 mb-1 leading-6
+        }
+        h5{
+            @apply text-2xl text-white font-title font-bold leading-8 mb-2
+        }
+        p{
+            @apply text-base text-white leading-5
+        }
+        img{
+            @apply w-full
+        }
+        a{
+            @apply flex items-center mt-2 text-gray
+        }
+    }
+    .arrow{
+        @apply w-5 ml-2
+    }
+}

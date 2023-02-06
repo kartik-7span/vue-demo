@@ -1,0 +1,11 @@
+.testimonial{
+    @apply bg-dark py-20 pl-10;
+    &--content{
+        h2{
+            @apply text-4xl 2xl:text-5xl text-white font-title mb-2 font-normal pr-24 mb-5;
+        }
+        span{
+           @apply text-2xl text-white font-semibold
+        }
+    }
+}

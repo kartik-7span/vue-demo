@@ -10,7 +10,7 @@
      }
      &-img{
         img{
-            @apply w-full max-w-lg m-auto  pb-10 2xl:pb-0
+            @apply w-full max-w-lg m-auto  pr-0 pb-10 2xl:pb-0 md:pr-10
         }
      }
 }

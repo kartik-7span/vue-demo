@@ -1,7 +1,7 @@
 <template>
     <section class="partners py-24 px-5 2xl:pl-10">
         <div class="partners__wrapper">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 ">
+            <div class="grid grid-cols-3 lg:grid-cols-3 gap-4 ">
                 <div class="partners--content">
                     <h2>{{ title }}</h2>
                     <p>{{ description }}</p>
@@ -42,7 +42,7 @@ export default {
                         settings: {
                             slidesToScroll: 1,
                             slidesToShow: 2,
-                            centerPadding: '20px'
+                            centerPadding: '0px',
                         },
                     },
                     {
@@ -101,6 +101,7 @@ export default {
 .partners-slider img {
     width: 150px;
     height: 150px;
+    margin: 0 auto;
 }
 
 .slick-list {

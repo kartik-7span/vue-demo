@@ -1,7 +1,7 @@
 <template>
     <section class="growth py-10 2xl:py-24">
         <div class="container m-auto px-4">
-            <div class="grid grid-cols-1 2xl:grid-cols-2 items-center">
+            <div class="grid grid-cols-2  items-center">
                 <div class="growth-img">
                     <img src="../../assets/images/growth.svg" alt="">
                 </div>
