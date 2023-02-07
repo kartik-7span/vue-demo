@@ -2,10 +2,22 @@
     @apply bg-dark py-20 pl-10;
     &--content{
         h2{
-            @apply text-4xl 2xl:text-5xl text-white font-title mb-2 font-normal pr-24 mb-5;
+            @apply text-4xl 2xl:text-5xl text-white font-title mb-2 font-normal pr-24 mb-16;
         }
         span{
-           @apply text-2xl text-white font-semibold
+           @apply text-2xl text-white font-semibold;
         }
+    }
+    &--info__wrap{
+        @apply flex items-center;
+    }
+    &--info{
+        @apply pl-3;
+        h5{
+            @apply text-lg text-white mb-1;
+        }
+    }
+    p{
+        @apply text-lg text-white mt-4
     }
 }
