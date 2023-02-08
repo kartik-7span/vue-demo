@@ -17,7 +17,16 @@
             @apply text-lg text-white mb-1;
         }
     }
+    .testimonail-slide{
     p{
-        @apply text-lg text-white mt-4
+        @apply text-lg text-white mt-5
     }
+    span{
+        @apply flex items-center mt-2 bg-lightgreen py-1 px-4 rounded w-max text-green text-xs font-display font-bold;
+        img{
+            @apply mr-2
+        }
+        }
+    }
+   
 }

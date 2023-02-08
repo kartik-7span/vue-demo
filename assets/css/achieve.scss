@@ -1,0 +1,14 @@
+.achieve{
+    @apply py-24 bg-no-repeat bg-cover;
+    &__content{
+        h2{
+            @apply text-5xl font-semibold text-white font-title mb-2
+        }
+        p{
+            @apply text-2xl text-white font-display mb-12
+        }
+        a{
+            @apply px-9 py-3 bg-white inline-block rounded text-orange font-display font-semibold
+        }
+    }
+}

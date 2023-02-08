@@ -25,16 +25,20 @@
     <!-- Testimonials : Starts -->
     <TheTestimonail title="What Are People Saying About Us" />
     <!-- Testimonials : Ends -->
+    <!-- Achieve More : Starts-->
+    <TheAchieve title="Achieve more now!" subtitle="Let’s chat and see how we can help" />
+    <!-- Achieve More : Ends -->
   </div>
 </template>
 
 <script>
+import TheAchieve from '../components/the-achieve/TheAchieve.vue';
 import ThePartners from '../components/the-partners/ThePartners.vue';
 import TheTestimonail from '../components/the-testimonial/TheTestimonail.vue';
 
 export default {
   name: "IndexPage",
-  components: { ThePartners, TheTestimonail }
+  components: { ThePartners, TheTestimonail, TheAchieve }
 }
 </script>
 

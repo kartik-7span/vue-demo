@@ -23,6 +23,7 @@
                                     <img src="../../assets/images/rattings.svg" alt="Rattings">
                                 </div>
                             </div>
+                            <span><img src="../../assets/images/check.png" alt="check"> Verified Testimonial</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                                 officia consequat duis enim velit mollit.Exercitation veniam consequat sunt</p>
                         </div>
@@ -36,6 +37,7 @@
                                     <img src="../../assets/images/rattings.svg" alt="Rattings">
                                 </div>
                             </div>
+                            <span><img src="../../assets/images/check.png" alt="check"> Verified Testimonial</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                                 consequat duis enim velit
                                 mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
@@ -51,6 +53,7 @@
                                     <img src="../../assets/images/rattings.svg" alt="Rattings">
                                 </div>
                             </div>
+                            <span><img src="../../assets/images/check.png" alt="check"> Verified Testimonial</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                                 consequat duis enim velit mollit.Exercitation veniam consequat sunt nostrud amet. Amet
                                 minim mollit non deserunt ullamcoest sit aliqua dolor do</p>
@@ -65,6 +68,7 @@
                                     <img src="../../assets/images/rattings.svg" alt="Rattings">
                                 </div>
                             </div>
+                            <span><img src="../../assets/images/check.png" alt="check"> Verified Testimonial</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                                 officia consequat duis enim velit mollit.Exercitation veniam consequat sunt</p>
                         </div>
@@ -78,6 +82,7 @@
                                     <img src="../../assets/images/rattings.svg" alt="Rattings">
                                 </div>
                             </div>
+                            <span><img src="../../assets/images/check.png" alt="check"> Verified Testimonial</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                                 officia consequat duis enim velit mollit.Exercitation veniam consequat sunt</p>
                         </div>
@@ -91,6 +96,7 @@
                                     <img src="../../assets/images/rattings.svg" alt="Rattings">
                                 </div>
                             </div>
+                            <span><img src="../../assets/images/check.png" alt="check"> Verified Testimonial</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                                 officia consequat duis enim velit mollit.Exercitation veniam consequat sunt</p>
                         </div>
@@ -104,6 +110,7 @@
                                     <img src="../../assets/images/rattings.svg" alt="Rattings">
                                 </div>
                             </div>
+                            <span><img src="../../assets/images/check.png" alt="check"> Verified Testimonial</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                                 officia consequat duis enim velit mollit.Exercitation veniam consequat sunt</p>
                         </div>
@@ -117,6 +124,7 @@
                                     <img src="../../assets/images/rattings.svg" alt="Rattings">
                                 </div>
                             </div>
+                            <span><img src="../../assets/images/check.png" alt="check"> Verified Testimonial</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                                 officia consequat duis enim velit mollit.Exercitation veniam consequat sunt</p>
                         </div>
@@ -130,6 +138,7 @@
                                     <img src="../../assets/images/rattings.svg" alt="Rattings">
                                 </div>
                             </div>
+                            <span><img src="../../assets/images/check.png" alt="check"> Verified Testimonial</span>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                                 officia consequat duis enim velit mollit.Exercitation veniam consequat sunt</p>
                         </div>
