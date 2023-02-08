@@ -4,7 +4,7 @@
             <div class="achieve__content">
                 <h2>{{ title }}</h2>
                 <p>{{ subtitle }}</p>
-                <a href="#">Book a Strategy Call</a>
+                <a href="#">Book a Strategy Call.</a>
             </div>
         </div>
     </section>
