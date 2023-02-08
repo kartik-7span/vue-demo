@@ -18,7 +18,8 @@ module.exports = {
         'dark': '#222222',
         'gray': '#e7e7e7',
         'lightgreen': '#ECFDF5',
-        'green': '#064E3B'
+        'green': '#064E3B',
+        'darkgray': '#999999',
       },
       backgroundImage: {
         'GradientColor': 'linear-gradient(270deg, #272627 100%, rgba(34, 34, 34, 0) 69.19%)'
