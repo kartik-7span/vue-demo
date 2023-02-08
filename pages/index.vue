@@ -28,6 +28,9 @@
     <!-- Achieve More : Starts-->
     <TheAchieve title="Achieve more now!" subtitle="Let’s chat and see how we can help" />
     <!-- Achieve More : Ends -->
+    <!-- Footer : Starts-->
+    <TheFooter />
+    <!-- Footer : Ends-->
   </div>
 </template>
 

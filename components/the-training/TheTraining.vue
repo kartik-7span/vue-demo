@@ -1,6 +1,6 @@
 <template>
     <section class="training overflow-hidden">
-        <div class="grid grid-cols-3 items-center ">
+        <div class="grid grid-cols-1 lg:grid-cols-3 items-center  md:grid-cols-3">
             <div class="training-content 2xl:pl-10 ">
                 <h2>{{ title }}</h2>
                 <TheButtonCommanButton />

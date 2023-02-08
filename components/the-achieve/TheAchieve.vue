@@ -1,6 +1,6 @@
 <template>
     <section class="achieve" :style="{ backgroundImage: `url(${backgroundUrl})` }">
-        <div class="container m-auto">
+        <div class="container m-auto px-5">
             <div class="achieve__content">
                 <h2>{{ title }}</h2>
                 <p>{{ subtitle }}</p>

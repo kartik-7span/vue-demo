@@ -1,7 +1,7 @@
 <template>
     <section class="partners py-24 px-5 2xl:pl-10">
         <div class="partners__wrapper">
-            <div class="grid grid-cols-3 lg:grid-cols-3 gap-4 ">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 md:grid-cols-3">
                 <div class="partners--content">
                     <h2>{{ title }}</h2>
                     <p>{{ description }}</p>

@@ -5,16 +5,16 @@
     }
     &-slider{
         span{
-           @apply text-base text-white opacity-50 block mt-2 mb-1 leading-6
+           @apply text-base text-white opacity-50 mt-2 mb-1 leading-6
         }
         h5{
-            @apply text-2xl text-white font-title font-bold leading-8 mb-2
+            @apply text-2xl text-white font-title font-bold leading-8 mb-2 mt-2
         }
         p{
             @apply text-base text-white leading-5
         }
         img{
-            @apply w-full
+            @apply w-full mb-5
         }
         a{
             @apply flex items-center mt-2 text-gray

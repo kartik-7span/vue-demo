@@ -8,10 +8,12 @@
                 <div class="news-event__slider">
                     <div class="news-slider" v-for="items in news">
                         <img :src="require(`../../assets/images/${items.image}`)" alt="news image">
-                        <span>Learning & Development | 2, Sept 2022</span>
+                        <span>{{ items.catagory }} |</span>
+                        <span> {{ items.date }}</span>
                         <h5>{{ items.newstitle }}</h5>
                         <p>{{ items.description }}</p>
-                        <a href="#">Read More <img src="../../assets/images/arrow.svg" alt="Arrow" class="arrow"> </a>
+                        <a href="#">Read More <img src="../../assets/images/arrow.svg" alt="Arrow" class="arrow">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -67,41 +69,57 @@ export default {
             news: [
                 {
                     image: 'news-img1.png',
+                    catagory: 'Learning & Development',
+                    date: ' 2, Sept 2022',
                     newstitle: 'Featured Title here',
                     description: 'Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod.'
                 },
                 {
                     image: 'news-img2.png',
+                    catagory: 'Learning & Development',
+                    date: ' 2, Sept 2022',
                     newstitle: 'Featured Title here',
                     description: 'Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod.'
                 },
                 {
                     image: 'news-img3.png',
+                    catagory: 'Learning & Development',
+                    date: ' 2, Sept 2022',
                     newstitle: 'Featured Title here',
                     description: 'Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod.'
                 },
                 {
                     image: 'news-img4.png',
+                    catagory: 'Learning & Development',
+                    date: ' 2, Sept 2022',
                     newstitle: 'Featured Title here',
                     description: 'Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod.'
                 },
                 {
                     image: 'news-img1.png',
+                    catagory: 'Learning & Development',
+                    date: ' 2, Sept 2022',
                     newstitle: 'Featured Title here',
                     description: 'Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod.'
                 },
                 {
                     image: 'news-img2.png',
+                    catagory: 'Learning & Development',
+                    date: ' 2, Sept 2022',
                     newstitle: 'Featured Title here',
                     description: 'Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod.'
                 },
                 {
                     image: 'news-img4.png',
+                    catagory: 'Learning & Development',
+                    date: ' 2, Sept 2022',
                     newstitle: 'Featured Title here',
                     description: 'Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod.'
                 },
                 {
                     image: 'news-img3.png',
+                    catagory: 'Learning & Development',
+                    date: ' 2, Sept 2022',
                     newstitle: 'Featured Title here',
                     description: 'Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod.'
                 },
