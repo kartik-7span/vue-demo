@@ -17,7 +17,7 @@
                     <a href="tel:+61 3 9070 9055">+61 3 9070 9055</a>
                 </div>
                 <div class="footer__newslatter">
-                    <h4>Subscribe to our newsletter</h4>
+                    <h4>Subscribe to our newsletter.</h4>
                 </div>
             </div>
         </div>
