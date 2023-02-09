@@ -22,8 +22,39 @@
                 </div>
                 <div class="footer__newslatter">
                     <h4>Subscribe to our newsletter.</h4>
+                    <form action="#">
+                        <div class="footer-email">
+                            <input type="email" placeholder="Enter Your Email">
+                            <button class="footer--btn" type="submit" required><img src="../../assets/images/arrow.svg"
+                                    alt=""></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer__top">
+                    <a href="#" id="button"><img src="../../assets/images/uparrow.png" alt=""></a>
                 </div>
             </div>
         </div>
     </footer>
 </template>
+
+<script>
+export default {
+    mounted() {
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+    }
+}
+</script>

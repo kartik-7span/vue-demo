@@ -30,8 +30,23 @@
     }
     &__newslatter{
         h4{
-            @apply text-2xl w-60 text-gray font-semibold;
+            @apply text-2xl w-60 text-gray font-semibold mb-2;
+        }
+        input[type="email"]{
+            @apply bg-transparent border-b border-white px-4 py-3 w-full;
+        }
+        button{
+            @apply p-3 relative right-11;
         }
     }
+     .footer-email{
+        @apply flex;
+     }
+     &__top{
+        @apply text-right;
+        img{
+            @apply ml-auto
+        }
+     }
 }
 
